@@ -1,3 +1,9 @@
+/*
+	Template Name 	: Launch - Under Maintenance HTML Template
+	Author 			: Awaiken Theme
+	Author Url 		: https://awaikenthemes.com
+*/
+
 body{
 	font-size: 16px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -70,7 +76,7 @@ a:focus{
 }
 
 .logo h1:first-letter{
-	color: #571b34;
+	color: #e3c600;
 }
 
 .logo p{
@@ -89,7 +95,7 @@ a:focus{
 }
 
 .coming-text h2{
-	color: #bb8b30;
+	color: #e3c600;
 	font-size: 54px;
 	letter-spacing: 0.1em;
 	font-weight: 700;
@@ -123,7 +129,7 @@ a:focus{
 }
 
 .timer .timer-wrapper .text{
-	color: #bb8b30;
+	color: #e3c600;
 	text-transform: uppercase;
 	font-size: 16px;
 }
@@ -157,7 +163,7 @@ a:focus{
 	font-size: 14px;
 	font-weight: 700;
 	margin-left: -5px;
-	background: #bb8b30;
+	background: #e3c600;
 	vertical-align: top;
 	transition: all 0.3s;
 	outline: 0;
@@ -182,7 +188,7 @@ a:focus{
 }
 
 .social-link a:hover{
-	color: #bb8b30;
+	color: #e3c600;
 }
 
 @media only screen and (max-width:768px){

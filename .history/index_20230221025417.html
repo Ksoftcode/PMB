@@ -27,22 +27,6 @@
 	
 </head>
 <body onload="load()">
-
-	<p id="date"></p>
-
-    <script>
-        function load() {
-            var today = new Date();
-            var date = localStorage.getItem("date");
-            if (date) {
-                date = new Date(date);
-            } else {
-                date = today;
-            }
-            document.getElementById("date").innerHTML = date.toDateString();
-            localStorage.setItem("date", date);
-        }
-    </script>
 	
 	<!-- Coming Soon Wrapper starts -->
 	<div class="comming-soon">

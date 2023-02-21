@@ -24,25 +24,26 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script>
+		function updateDateTime() {
+		  var now = new Date();
+		  var date = now.toLocaleDateString();
+		  var time = now.toLocaleTimeString();
+		  var dateTimeString = date + ' ' + time;
+		  document.getElementById('datetime').textContent = dateTimeString;
+		  localStorage.setItem('lastDateTime', dateTimeString);
+		}
 	
+		window.onload = function() {
+		  var lastDateTime = localStorage.getItem('lastDateTime');
+		  if (lastDateTime !== null) {
+			document.getElementById('datetime').textContent = lastDateTime;
+		  }
+		  setInterval(updateDateTime, 1000);
+		};
+	  </script>
 </head>
-<body onload="load()">
-
-	<p id="date"></p>
-
-    <script>
-        function load() {
-            var today = new Date();
-            var date = localStorage.getItem("date");
-            if (date) {
-                date = new Date(date);
-            } else {
-                date = today;
-            }
-            document.getElementById("date").innerHTML = date.toDateString();
-            localStorage.setItem("date", date);
-        }
-    </script>
+<body>
 	
 	<!-- Coming Soon Wrapper starts -->
 	<div class="comming-soon">
