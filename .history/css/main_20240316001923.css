@@ -2394,15 +2394,6 @@ html.no-csstransitions .home-content__main {
     width: 50%;
   }
 
-  .home-logo {
-    /* right: 30px; */
-    display: none;
-  }
-
-  .info-toggle2 {
-    left: 250px; /* Adjusted left position for .info-toggle2 */
-  }
-
 }
 
 @media only screen and (max-width:400px) {

@@ -1980,8 +1980,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-logo {
-    /* right: 30px; */
-    display: none;
+    right: 30px;
   }
 
   .home-logo img {
@@ -2394,23 +2393,11 @@ html.no-csstransitions .home-content__main {
     width: 50%;
   }
 
-  .home-logo {
-    /* right: 30px; */
-    display: none;
-  }
-
-  .info-toggle2 {
-    left: 250px; /* Adjusted left position for .info-toggle2 */
-  }
-
 }
 
 @media only screen and (max-width:400px) {
   .info-toggle {
-    left: 20px; /* Adjusted left position proportionally */
-  }
-  .info-toggle2 {
-    left: 195px; /* Adjusted left position for .info-toggle2 */
+    left: 30px;
   }
 
   .info-toggle::after {

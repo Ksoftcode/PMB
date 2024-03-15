@@ -2399,10 +2399,6 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
-  .info-toggle2 {
-    left: 250px; /* Adjusted left position for .info-toggle2 */
-  }
-
 }
 
 @media only screen and (max-width:400px) {
