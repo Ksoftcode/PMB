@@ -2345,7 +2345,7 @@ html.no-csstransitions .home-content__main {
   transition: all 0.5s ease-in-out;
 }
 .info-toggle2::after {
-  content: "Our World";
+  content: "Our World..";
   display: block;
   position: absolute;
   top: 0;

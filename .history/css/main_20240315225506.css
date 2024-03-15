@@ -2315,7 +2315,7 @@ html.no-csstransitions .home-content__main {
   width: 42px;
   line-height: 42px;
   position: fixed;
-  left: 250px; /* Adjusted left position to create more space */
+  left: 120px; /* Adjusted left position to create more space */
   top: 30px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;

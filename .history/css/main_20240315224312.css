@@ -2302,32 +2302,8 @@ html.no-csstransitions .home-content__main {
   transition: all 0.5s ease-in-out;
 }
 
-.info-toggle2 {
-  z-index: 502;
-  background-color: #000000;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  font-family: "metropolis-medium", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  color: white;
-  height: 42px;
-  width: 42px;
-  line-height: 42px;
-  position: fixed;
-  left: 250px; /* Adjusted left position to create more space */
-  top: 30px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
 .info-toggle:hover,
 .info-toggle:focus {
-  color: #FFFFFF;
-}
-
-.info-toggle2:hover,
-.info-toggle2:focus {
   color: #FFFFFF;
 }
 
